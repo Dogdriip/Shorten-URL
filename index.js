@@ -1,3 +1,3 @@
 exports.helloGET = (req, res) => {
-	res.send('Hello from GCF');
+	res.redirect('http://example.com');
 };
